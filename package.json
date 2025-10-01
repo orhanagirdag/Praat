@@ -1,0 +1,24 @@
+{
+  "name": "praat",
+  "version": "1.0.0",
+  "description": "Conversatie-app voor taalverwerving met OpenAI Realtime API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "language",
+    "education",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "uuid": "^13.0.0"
+  }
+}
