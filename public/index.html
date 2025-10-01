@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praat - Taalcoach</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="status">
+        <h1>Praat</h1>
+        <p class="subtitle">Oefen Nederlands door te praten met een slimme tutor.</p>
+        <div class="level" id="level">Taalniveau: onbekend</div>
+      </section>
+
+      <section class="conversation" id="conversation" aria-live="polite"></section>
+
+      <section class="controls">
+        <button id="micButton" class="mic" aria-label="Druk om te praten" disabled>
+          <span class="mic-icon">🎤</span>
+        </button>
+        <p class="hint">Houd de knop ingedrukt terwijl je spreekt.</p>
+        <p class="error" id="error"></p>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
